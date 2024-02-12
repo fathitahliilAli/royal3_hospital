@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ .sawir{
+  display: flex;
+  justify-content: center;
+
+ }
+  .sawir img{
+    height: 100px;
+    width: 150px;
+ }
+  .head{
+   display: flex;
+   justify-content: center;
+  
+  }
+  .head h4{
+    padding: 0px 40px;
+  }
+
+
+ .reciept {
+   display: flex;
+   justify-content: center;
+   padding-top: 15px;
+
+ }
+  .left_table  ,.right_table{
+    padding: 3px 70px;
+  }
+  .left_table td , th{
+    padding: 5px 0px;
+    text-align: left;
+  }
+  .right_table td ,th{
+    padding: 5px 0px;
+    text-align: left;
+  }
+
+
+   
+   
+    
+ 
+ /*.......................item*/
+ .item{
+  display: flex;
+  justify-content: center;
+  
+ }
+ .item th{
+ padding: 5px 70px;
+ font-size: 20px;
+  text-align: left;
+  border-bottom: 2px solid rgb(87, 78, 78);
+ }
+  .item td{
+   padding: 5px 70px;
+   font-size: 20px;
+    text-align: left;
+    border-bottom: 2px solid rgb(87, 78, 78);
+   
+  }
+  .item table{
+   border-collapse: collapse;
+  }
+
+
+  /*.......................subtotal*/
+ .subtotal  {
+  display: flex;
+  justify-content: center;
+  margin-right: 35rem;
+  margin-top: 15px;
+  
+}
+.subtotal table{
+  border-collapse: collapse;
+}
+.subtotal th{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 5px 20px ;
+  text-align: left;
+  border-bottom: 2px dotted black;
+}
+.subtotal td{
+  font-weight: bolder;
+  padding: 5px 20px ;
+  text-align: left;
+  border-bottom: 2px dotted black;
+  font-size: 1.3rem;
+}
+
+/*...................medical*/
+.medical{
+  text-align: center;
+  margin-right: 25rem;
+  margin-top: 25px;
+  font-size: 1.3rem;
+}
+ .sawir2{
+  display: flex;
+  justify-content: center;
+ }
+ .sawir2 img{
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin-right: 25rem;
+
+ }
+  .button{
+    text-align: center;
+    margin-right: 25rem;
+    margin-bottom: 15px;
+  }
+
